@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+    padding: 10px 0;
+    z-index: 9999999;
+    margin-top: 20px;
+    background: #00B7FF;
+}
+/*footer, header, section {*/
+    /*width: 100%;*/
+    /*float: left;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*position: relative;*/
+    /*height: auto;*/
+/*}*/
+header.head{
+    margin-top: 20px;
+    background: none;
+    box-shadow: none;
+    border-bottom: 0;
+    position: absolute;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+.con {  padding-right: 15px;
+    padding-left: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header .toolbar {
+    width: 100px;
+    height: 50px;
+    /*width: 25%;*/
+    text-align: right;
+    float: right;
+    background: url("../image/a.jpg") no-repeat;
+   /*margin-right: 80px;*/
+    border-radius: 2px;
+}
+header .toolbar a{
+    width: 100px;
+    height: 100px; display: block;
+}
